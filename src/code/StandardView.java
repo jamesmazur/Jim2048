@@ -23,7 +23,7 @@ public class StandardView implements IView, Runnable {
     
     @Override
     public void run() {
-        _frame = new JFrame("Jimmy's 2048 Game");
+        _frame = new JFrame("Jim's 2048 Game");
         _frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         _frame.getContentPane().setLayout(new GridLayout(Driver.GRID_SIZE, Driver.GRID_SIZE));
         for (int row = 0; row < Driver.GRID_SIZE; ++row) {
